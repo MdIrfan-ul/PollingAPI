@@ -12,7 +12,7 @@ app.use("/questions",questionRoutes);
 app.use("/options",optionRoutes);
 
 app.use((req,res)=>{
-    res.status(404).json("API not found.Please verify the documentation of postman")
+    res.status(404).json(`API not found.Please verify the documentation of postman at https://documenter.getpostman.com/view/33021592/2sA3BrWpSP`)
 });
 app.use((err, req, res, next) => {
     console.log(err);
