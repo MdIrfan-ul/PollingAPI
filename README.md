@@ -23,7 +23,7 @@ Here are the routes you can use to interact with the API:
 - **GET** `/questions/:id`: Retrieve a question, its options, and the votes given to each option, all based on its ID.
 
 ## Technologies Used
-[![Languages Used](https://skillicons.dev/icons?i=,nodejs,express,mongodb,postman)](https://skillicons.dev)
+[![Languages Used](https://skillicons.dev/icons?i=nodejs,express,mongodb,postman)](https://skillicons.dev)
 - **Node.js:** JavaScript runtime for building the backend server.
 - **Express.js:** Web framework for Node.js to build APIs.
 - **MongoDB:** NoSQL database used for storing questions, options, and votes.
