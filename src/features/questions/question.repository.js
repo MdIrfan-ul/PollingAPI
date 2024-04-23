@@ -17,6 +17,9 @@ export default class QuestionRepository{
         try {
             const question = await QuestionModel.findById(id).populate('options');
             // console.log('Populated Question:', question);  // Debugging log
+            if(!question){
+                throw new ApplicationError("No questions found for the given id")
+            }
         return question;
         } catch (error) {
             console.log(error);
