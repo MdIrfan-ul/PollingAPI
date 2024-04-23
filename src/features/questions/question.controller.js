@@ -63,7 +63,7 @@ function transformQuestion(question) {
             id: option._id,
             text: option.options[0], // Assuming the option contains an array of strings
             votes: option.vote,
-            link_to_vote: `http://localhost:${process.env.PORT}/options/${option._id}/add_vote`,
+            link_to_vote: `https://pollingapi-37fh.onrender.com/options/${option._id}/add_vote`,
         })),
     };
 }
