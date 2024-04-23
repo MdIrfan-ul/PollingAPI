@@ -59,5 +59,10 @@ npm start
 ```
 Now you can start testing the API using Postman or any REST API testing tool by making requests to the defined routes.
 
+## Deployment
+
+```bash
+liveUrl: https://pollingapi-37fh.onrender.com/
+```
 ## ConnectMe 
 [![Languages Used](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/mdirfanul/)
